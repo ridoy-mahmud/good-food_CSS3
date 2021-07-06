@@ -97,7 +97,7 @@ h1{
 }
 .service-section{
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .service-container1 img{
     width: 80%;
@@ -116,6 +116,22 @@ h1{
     padding: 15px 40px;
     border-radius: 75px 75px;
 }
+.flexiable-container{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.manu-items{
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 5%;
+    border: 0px solid black;
+    display: inline-block;
+    margin: 80px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+
+}
 #good-food1{
     color: orange;
 }
@@ -128,4 +144,17 @@ footer{
     color:white;
     padding-bottom: 30px;
     padding-top: 20px;
+}
+#reg1{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,yellow);
+    border-image-slice: 8;
+}
+#reg2{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,yellow);
+    border-image-slice: 8;
+}
+#food2{
+    color: orange;
 }
